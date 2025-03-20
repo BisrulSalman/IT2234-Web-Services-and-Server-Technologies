@@ -1,4 +1,12 @@
+Day-02 IT2234 Practical Day 02 - 17/03/2025
 
+ARRAYS IN JAVASCRIPT
+
+OUTPUTS
+
+Initializing and printing elements of a number array
+
+An array is a data structure used to store multiple values in a single variable.
 
 
 ![Screenshot 2025-03-20 223555](https://github.com/user-attachments/assets/ac14c920-07ff-4389-8751-da6e679f1865)
