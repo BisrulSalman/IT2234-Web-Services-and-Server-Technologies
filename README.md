@@ -1,6 +1,6 @@
 # IT2234-Web-Services-and-Server-Technologies
-Question-01!
-[Screenshot 2025-04-05 235536](https://github.com/user-attachments/assets/5feeea6e-c60c-4433-ba5d-7b963b6aa88b)
+Question-01
+![Screenshot 2025-04-05 235536](https://github.com/user-attachments/assets/5feeea6e-c60c-4433-ba5d-7b963b6aa88b)
 Question-02
 ![Screenshot 2025-04-05 235711](https://github.com/user-attachments/assets/33144982-f5d5-438c-b634-7b0fea3101b9)
 Question-03
