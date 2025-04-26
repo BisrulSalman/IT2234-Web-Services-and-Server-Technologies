@@ -123,7 +123,8 @@ Shell response.
 
 Inserted Documents.
 
-![Screenshot 2025-04-26 182505](https://github.com/user-attachments/assets/7089d149-f7c3-4d5f-b5a1-cf62adeacd54)
+![Screenshot 2025-04-26 215646](https://github.com/user-attachments/assets/a3a7d966-f873-4b4e-9345-3456056c17b3)
+
 
 
 ## 🛠️ Update Documents Using MongoDB Shell
