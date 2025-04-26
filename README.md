@@ -17,7 +17,8 @@ Document → BSON-style object
 
 Create Database -> Database Name -> Collection Name -> Create Database
 
-![Uploading Screenshot 2025-04-26 171659.png…]()
+![Screenshot 2025-04-26 171659](https://github.com/user-attachments/assets/0b4a645b-9a01-4b4f-a508-62ff057f18ae)
+
 
 
 ## ✍️ Insert Documents Using Compass
