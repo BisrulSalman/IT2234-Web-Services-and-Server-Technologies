@@ -131,19 +131,19 @@ Inserted Documents.
 
 Update one document - updateOne()
 
-!['10.updateOne.png'](./Images/10.updateOne.png)
+
 
 Updated Documents.
 
-!['10.png'](./Images/10.png)
+
 
 Update document - updateMany()
 
-!['11.updateMany.png'](./Images/11.updateMany.png)
+
 
 Updated Documents.
 
-!['11.png'](./Images/11.png)
+
 
 
 ## 🧹 Delete Documents Using MongoDB Shell
@@ -165,7 +165,8 @@ Updated Documents.
 
 ## 🔍 Find Data Using Compass
 
-!['12.find.png'](./Images/12.find.png)
+![Screenshot 2025-04-26 221632](https://github.com/user-attachments/assets/24224040-5bd0-4d92-b6df-fecf5257dae9)
+
 
 ## 🔍 Find Data Using MongoDB Shell
 ```
@@ -267,11 +268,13 @@ Shell response
 
 ## 💡 Projecting Data Using Compass
 
-!['12.selectedField.png'](./Images/12.selectedField.png)
+![Screenshot 2025-04-26 222444](https://github.com/user-attachments/assets/ec49253f-b2e2-40ae-a491-29496abfcd8c)
+
 
 ## 🔃 Sorting Data Using Compass
 
-!['13.sort.png'](./Images/13.sort.png)
+![Screenshot 2025-04-26 222655](https://github.com/user-attachments/assets/f82b68a4-abd4-4cff-af22-3ec6dc030710)
+
 
 ## 🔃 Sorting Data Using MongoDB Shell
 
@@ -328,7 +331,8 @@ Shell response.
 
 Compass.
 
-!['14.gt.png'](./Images/14.gt.png)
+![Screenshot 2025-04-26 222903](https://github.com/user-attachments/assets/8acc3e87-361f-46bb-89af-e04233ecb5f9)
+
 
 MongoDB Shell.
 ```
@@ -369,7 +373,8 @@ Shell response.
 
 Compass.
 
-!['15.lt.png'](./Images/15.lt.png)
+![Screenshot 2025-04-26 223059](https://github.com/user-attachments/assets/e81c2215-6ba0-45ab-a10e-08f9a49c823a)
+
 
 MongoDB Shell.
 ```
@@ -399,7 +404,8 @@ Shell response.
 
 Compass.
 
-!['16.eq.png'](./Images/16.eq.png)
+![Screenshot 2025-04-26 223238](https://github.com/user-attachments/assets/33e342c4-cc3b-46e9-b904-12cc4aae9cd2)
+
 
 MongoDB Shell.
 ```
@@ -427,8 +433,8 @@ Shell response.
 ## ❌ Not Equal -> $ne
 
 Compass.
+![Screenshot 2025-04-26 223346](https://github.com/user-attachments/assets/899340d7-0446-47f4-ad93-bf947fdb0f7a)
 
-!['17.ne.png'](./Images/17.ne.png)
 
 MongoDB Shell.
 ```
