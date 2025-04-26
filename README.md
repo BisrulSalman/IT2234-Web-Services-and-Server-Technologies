@@ -25,7 +25,8 @@ Create Database -> Database Name -> Collection Name -> Create Database
 
 Insert Document -> insert keys and values. 
 
-!['2.insert.png'](./Images/2.insert.png)
+![Screenshot 2025-04-26 172453](https://github.com/user-attachments/assets/35e1f892-5074-4490-9347-60bbc10064df)
+
 
 Use format button to make the document permitted.
 
