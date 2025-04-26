@@ -17,7 +17,8 @@ Document → BSON-style object
 
 Create Database -> Database Name -> Collection Name -> Create Database
 
-!['1.createDB.png'](./Images/1.createDB.png)
+![Uploading Screenshot 2025-04-26 171659.png…]()
+
 
 ## ✍️ Insert Documents Using Compass
 
