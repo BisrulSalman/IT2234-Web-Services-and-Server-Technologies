@@ -29,30 +29,34 @@ Insert Document -> insert keys and values.
 
 
 Use format button to make the document permitted.
+![Screenshot 2025-04-26 172548](https://github.com/user-attachments/assets/36bb7303-1f03-47f7-a030-46cb4150211d)
 
-!['4.format.png'](./Images/4.format.png)
 
 Inserted Document
 
-!['5.png'](./Images/5.png)
+![Screenshot 2025-04-26 172729](https://github.com/user-attachments/assets/9d0d9d87-7619-4234-97fb-4ea5b7b3e672)
+
+
 
 ## ✍️ Edit Documents Using Compass
 
 Edit -> Make changes -> Update
 
-!['5.update.png'](./Images/5.update.png)
+![Screenshot 2025-04-26 173124](https://github.com/user-attachments/assets/0283345b-35f5-4b4b-a1d5-ab3f9974cafe)
+
 
 ## ✍️ Insert Documents Using MongoDB Shell
 
 Change database and display available databases and collections.
 
-!['6.shellCommands.png'](./Images/6.shellCommands.png)
+![Screenshot 2025-04-26 173440](https://github.com/user-attachments/assets/fae5ded2-7f0a-49ac-ab09-4010010d2061)
+
 
 Enter one document - insertOne()
 
 ~~~
   db.students.insertOne({
-  "regno": "2021IT006",
+  "regno": "2021IT93",
   "name": "Nova",
   "age": 24,
   "gender": "Male",
@@ -65,11 +69,12 @@ Enter one document - insertOne()
 })
 ~~~
 
-!['7.insertOne.png'](./Images/7.insertOne.png)
+![Screenshot 2025-04-26 173654](https://github.com/user-attachments/assets/a78824df-58d5-45dc-96cf-456f5cb922fc)
+
 
 Inserted Documents.
+![Screenshot 2025-04-26 182142](https://github.com/user-attachments/assets/397a162e-ef90-4402-8af5-f6f7c10be1f1)
 
-!['8.png'](./Images/9.png)
 
 Enter multiple documents - insertMany()
 
@@ -118,7 +123,8 @@ Shell response.
 
 Inserted Documents.
 
-!['9.png'](./Images/9.png)
+![Screenshot 2025-04-26 182505](https://github.com/user-attachments/assets/7089d149-f7c3-4d5f-b5a1-cf62adeacd54)
+
 
 ## 🛠️ Update Documents Using MongoDB Shell
 
