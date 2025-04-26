@@ -56,8 +56,8 @@ Enter one document - insertOne()
 
 ~~~
   db.students.insertOne({
-  "regno": "2021IT93",
-  "name": "Nova",
+  "regno": "2021IT010",
+  "name": "jovan",
   "age": 24,
   "gender": "Male",
   "degree": "IT",
