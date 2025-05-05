@@ -1,0 +1,105 @@
+
+
+Insert.
+db.books.insertMany([
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "published_year": 1937,
+    "genres": ["Fantasy", "Adventure"],
+    "pages": 310,
+    "available": true,
+    "rating": 4.8
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "published_year": 1949,
+    "genres": ["Dystopian", "Political Fiction"],
+    "pages": 328,
+    "available": true,
+    "rating": 4.7
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "published_year": 1960,
+    "genres": ["Southern Gothic", "Drama"],
+    "pages": 281,
+    "available": false,
+    "rating": 4.6
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "published_year": 1925,
+    "genres": ["Tragedy"],
+    "pages": 180,
+    "available": true,
+    "rating": 4.4
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "published_year": 1932,
+    "genres": ["Science Fiction", "Dystopian"],
+    "pages": 311,
+    "available": true,
+    "rating": 4.2
+  }
+])
+
+
+ MongoDB Queries
+
+ 1.
+db.books.find()
+
+
+ 2. 
+db.books.find({ published_year: { $gt: 1950 } })
+
+
+3. 
+db.books.find({ available: true })
+
+ 4. 
+db.books.find({ genres: "Dystopian" })
+```
+
+ 5.
+db.books.find({}, { title: 1, author: 1, _id: 0 })
+
+
+ 6. 
+db.books.updateOne(
+  { title: "1984" },
+  { $set: { available: false } }
+)
+
+
+7. 
+db.books.updateOne(
+  { title: "Brave New World" },
+  { $inc: { rating: 0.1 } }
+)
+
+
+ 8.
+db.books.updateOne(
+  { title: "The Great Gatsby" },
+  { $addToSet: { genres: "Classic" } }
+)
+
+
+9. 
+db.books.find().sort({ published_year: 1 })
+
+
+10.
+db.books.find().sort({ rating: -1 })
+
+
+11.
+db.books.deleteMany({ rating: { $lt: 4.5 } })
+

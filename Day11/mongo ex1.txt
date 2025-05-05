@@ -1,0 +1,62 @@
+create a database bookshop
+create a collection books
+insert the following data
+{
+  "title": "The Hobbit",
+  "author": "J.R.R. Tolkien",
+  "published_year": 1937,
+  "genres": ["Fantasy", "Adventure"],
+  "pages": 310,
+  "available": true,
+  "rating": 4.8
+}
+
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "published_year": 1949,
+    "genres": ["Dystopian", "Political Fiction"],
+    "pages": 328,
+    "available": true,
+    "rating": 4.7
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "published_year": 1960,
+    "genres": ["Southern Gothic", "Drama"],
+    "pages": 281,
+    "available": false,
+    "rating": 4.6
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "published_year": 1925,
+    "genres": ["Tragedy"],
+    "pages": 180,
+    "available": true,
+    "rating": 4.4
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "published_year": 1932,
+    "genres": ["Science Fiction", "Dystopian"],
+    "pages": 311,
+    "available": true,
+    "rating": 4.2
+  }
+
+Find all books
+Find all books published after 1950
+Find the avilable books
+Find all books that belong to the "Dystopian" genre
+Project only title and author fields:
+Update the book "1984" to set available: false:
+Increase the rating of "Brave New World" by +0.1:
+Add a new genre "Classic" to "The Great Gatsby":
+Sort books by published_year ascending:
+Sort books by rating descending:
+Delete all books with a rating lower than 4.5:
+ 
